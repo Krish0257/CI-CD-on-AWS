@@ -7,6 +7,6 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: simple-python-appscripts/start_container.sh
+    - location: simple-python-app/scripts/start_container.sh
       timeout: 300
       runas: root
